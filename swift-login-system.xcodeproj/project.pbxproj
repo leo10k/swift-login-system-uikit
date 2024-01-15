@@ -10,6 +10,7 @@
 		8D1AF6B52B555A610099F083 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AF6B42B555A600099F083 /* AuthHeaderView.swift */; };
 		8D1AF6B72B55649C0099F083 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AF6B62B55649C0099F083 /* CustomTextField.swift */; };
 		8D1AF6B92B556B110099F083 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AF6B82B556B110099F083 /* CustomButton.swift */; };
+		8D1AF6BB2B558CA20099F083 /* WebViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AF6BA2B558CA20099F083 /* WebViewerController.swift */; };
 		8DCA7F9D2B51DFAE00A48CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA7F9C2B51DFAE00A48CC9 /* AppDelegate.swift */; };
 		8DCA7F9F2B51DFAE00A48CC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA7F9E2B51DFAE00A48CC9 /* SceneDelegate.swift */; };
 		8DCA7FA62B51DFAF00A48CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCA7FA52B51DFAF00A48CC9 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		8D1AF6B42B555A600099F083 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 		8D1AF6B62B55649C0099F083 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8D1AF6B82B556B110099F083 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8D1AF6BA2B558CA20099F083 /* WebViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewerController.swift; sourceTree = "<group>"; };
 		8DCA7F992B51DFAE00A48CC9 /* swift-login-system.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-login-system.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCA7F9C2B51DFAE00A48CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DCA7F9E2B51DFAE00A48CC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				8DCA7FB92B51E34F00A48CC9 /* Views */,
 				8DCA7FB02B51E25400A48CC9 /* Supporting */,
 				8DCA7FAA2B51DFAF00A48CC9 /* Info.plist */,
+				8D1AF6BA2B558CA20099F083 /* WebViewerController.swift */,
 			);
 			path = "swift-login-system";
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				8D1AF6B72B55649C0099F083 /* CustomTextField.swift in Sources */,
 				8DCA7F9F2B51DFAE00A48CC9 /* SceneDelegate.swift in Sources */,
 				8DCA7FB42B51E2CF00A48CC9 /* LoginController.swift in Sources */,
+				8D1AF6BB2B558CA20099F083 /* WebViewerController.swift in Sources */,
 				8D1AF6B52B555A610099F083 /* AuthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
