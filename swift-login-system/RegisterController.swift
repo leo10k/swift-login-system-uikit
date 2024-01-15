@@ -103,6 +103,9 @@ class RegisterController: UIViewController {
     
     @objc private func didTapSignUp() {
         print("DidTapSignUp")
+        let webViewer = WebViewerController(with: "https://www.memeatlas.com/images/pepes/pape-fancy-smoking-cigar-served-by-seething-wojak.jpg")
+        let nav = UINavigationController(rootViewController: webViewer)
+        self.present(nav, animated: true, completion: nil)
     }
     
     @objc private func didTapSignIn() {
